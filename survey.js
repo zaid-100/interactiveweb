@@ -5,10 +5,8 @@ var createbox= function ()
     document.querySelector("body")
         .appendChild(opimage);
     
-var changeback= function ()
-{
-    var opimage =document.createElement("img")
-   console.log("opimage");
+    
+}
 
 
 
