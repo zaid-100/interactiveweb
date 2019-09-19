@@ -15,7 +15,7 @@ var changeback = function ()
     node.innerText = "You walk into the Kitchen at night, and see a haunting javascript, personified.... YOU RUN THE OTHER WAY BUT THE BUTTON WONT STOP WORKING";
     
     var body= document.querySelector("body");
-    body.appentChild(node);
+    body.appendChild(node);
     var button = document.querySelector("#secondclick");
 }
 
