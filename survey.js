@@ -12,13 +12,24 @@ var changeback = function ()
 {
     var node = document.createElement("h2");
     console.log("node",node);
-    node.innerText = "You walk into the Kitchen at night, and see a haunting javascript, personified.... YOU RUN THE OTHER WAY BUT THE BUTTON WONT STOP WORKING";
+    node.innerText = "You walk into the Kitchen at night, and see haunting javascript, personified.... YOU RUN THE OTHER WAY BUT THE BUTTONS WONT STOP WORKING";
     
     var body= document.querySelector("body");
     body.appendChild(node);
     var button = document.querySelector("#secondclick");
 }
 
+
+var END = function ()
+{
+    var node = document.createElement("h2");
+    console.log("node",node);
+    node.innerText = "YOU CAN'T RUN AWAY FROM THE 3Bs";
+    
+    var body= document.querySelector("body");
+    body.appendChild(node);
+    var button = document.querySelector("#thirdclick");
+}
 
 
 
